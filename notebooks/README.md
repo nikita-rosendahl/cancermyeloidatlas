@@ -1,15 +1,15 @@
 # notebooks
 
-This directory contains the jupyter notebooks used in the projects.
+This directory contains the jupyter notebooks for all analysis related to the myeloid APC atlas.
 
 ## Folder information
 
-```
-Myeloid-Export --> this folder contains notebooks for idenitfying and exporting the myeloid cells from all my sc datasets
-Myeloid_Subclustering_May2024 --> this folder contains the notebooks for the pilot I did on three datasets to practice subclustering the previously exported myeloid cells and overlaying sig
-Dataset_Imports --> this folder contains notebooks for importing all the datasets used in my single-cell atlas
-Meeting_Notes --> this folder contains any notebooks made during meetings with Kelvin
-Superseded notebooks --> this folder contains older versions of notebooks or analyses that have been superseded by notebooks in other folders
-Myeloid_Integration_Pilots_July2024 --> this folder contains notebooks for the pilot integrations and sig overlays I did on ovarian cancer, breast cancer, and melanoma (presented at BIG 2024)
-Tutorials --> this folder contains notebooks from any analyses I did while following online tutorials to learn new skills
+``` 
+01_Myeloid_APC_Export/                       -- idenitfying and exporting myeloid APC from all 36 sc datasets in atlas
+02_Atlas_generation_visualise/               -- all notebooks for atlas: merging, integration, clustering, annotation, visualisation, DC2 sub-clustering, etc
+03_Pseudobulk_sample_correlation/            -- pseudo-bulking and correlation between all sample/DC pairs in atlas
+04_scvi_integration/                         -- scvi integration done on atlas as a comparison to harmony
+05_Brown_sc_data_DC2A_B/                     -- comparing cDC2A and cDC2B in atlas to those in Brown et al. 2019
+06_Castro_et_al_2025_manuscript/             -- work done for the manuscrupt by Castro et al. 2025 
+
 ```
